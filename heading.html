@@ -1,13 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Class Timetable</title>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .heading {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .sub-heading {
+            margin: 5px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>web development</h1>
-    <h2>Welcome to web development!</h2>
-    <p>hype text markup language </p>
-</body>
+
+    <div class="heading">
+        <h2>Faculty of Engineering and Technology</h2>
+        <h3>Dept: Computer Science and Design</h3>
+        <h3>Academic Year 2025-26 (Odd Semester)</h3>
+    </div>
+
+    <table>
+        <tr style="background-color: rgb(197, 25, 117);">
+            <td><b>Semester:</b> 3rd</td>
+            <td><b>Class Strength:</b> 59</td>
+            <td><b>Room No:</b> 2</td>
+            <td><b>W.E.F:</b> 16-09-2025</td>
+        </tr>
+       
+    </table>
+
+    <!-- Timetable -->
+    <div class="sub-heading">CLASS TIMETABLE</div>
+    <table>
+        <tbody style="background-color: aqua;">
+        <tr>
+            <th>Day</th>
+            <th>10:00 - 10:55</th>
+            <th>11:00 - 12:00</th>
+            <th>12:15 - 1:15</th>
+            <th>2:00 - 2:55</th>
+            <th>3:00 - 3:55</th>
+            <th>4:05 - 5:00</th>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>OE</td>
+            <td>ME</td>
+            <td>SSCD</td>
+            <td>CN</td>
+            <td>LAB</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>SSCD</td>
+            <td>CN</td>
+            <td>OE</td>
+            <td>CGI LAB</td>
+            <td>SSCD LAB</td>
+            <td>CN LAB</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>CN LAB / CGI LAB</td>
+            <td>OE</td>
+            <td>LAB</td>
+            <td>OE</td>
+            <td>ME</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>OE</td>
+            <td>SSCD</td>
+            <td>CN</td>
+            <td>Project</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>CGI</td>
+            <td>CN</td>
+            <td>OE</td>
+            <td>Tutorials</td>
+            <td>Library</td>
+            <td>Self-Learning</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>ME</td>
+            <td>CN</td>
+            <td>CGI</td>
+            <td colspan="3"></td>
+        </tr>
+        </tbody>
+    </table>
+    </body>
 </html>
